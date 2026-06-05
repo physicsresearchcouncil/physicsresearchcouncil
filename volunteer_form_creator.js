@@ -27,7 +27,7 @@ function createVolunteerIntakeForm() {
   // 3. Configure Basic Form Settings
   form.setCollectEmail(true); // Automatically collect email addresses
   form.setLimitOneResponsePerUser(false); // Let students submit multiple times if they need to update
-  form.setAllowResponseEdit(true); // Let them edit their answers later
+  form.setAllowResponseEdits(true); // Let them edit their answers later
   
   // 4. Add Questions
   
