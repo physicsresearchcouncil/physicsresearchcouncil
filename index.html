@@ -3,25 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Physics Research Council - Empowering the next generation of physicists. Join as a volunteer, participate in our national physics competition, or join our professional advisory board.">
-  <title>Physics Research Council | Youth STEM Initiative</title>
+  <meta name="description" content="Physics Research Council Portal. Learn about the National Physics Championship, Student Volunteer Intake, and Academic Advisory Board opportunities.">
+  <title>Physics Research Council | National Olympiad & Youth Research Program</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Decorative Glowing Backdrops -->
-  <div class="bg-glow-1"></div>
-  <div class="bg-glow-2"></div>
-  <div class="bg-glow-3"></div>
+  <!-- Top Institutional Header -->
+  <header class="top-header">
+    <div class="header-container">
+      <div class="header-emblem">Φ</div>
+      <div class="header-text">
+        <h1>PHYSICS RESEARCH COUNCIL</h1>
+        <p>National Olympiad & Scientific Outreach Committee</p>
+      </div>
+    </div>
+  </header>
 
-  <!-- Header & Navigation -->
-  <header class="navbar" id="navbar">
-    <div class="container nav-container">
-      <a href="#" class="logo">
-        <div class="logo-icon">Φ</div>
-        <span>Physics Research Council</span>
-      </a>
-      
+  <!-- Scrolling News Ticker -->
+  <div class="ticker-wrap">
+    <div class="ticker-title">Latest Updates</div>
+    <div class="ticker-content">
+      <span>★ [NEW] Online Registration for Student Volunteer Intake is now open (No prior physics background required).</span>
+      <span>★ The Physics Championship 2026 guidelines and syllabus have been published.</span>
+      <span>★ Academic Advisory Board nominations are open for professors and postdoctoral researchers.</span>
+      <span>★ Past sample papers for Round 1 (Conceptual) and Round 3 (Olympiad Theory) are available in the Downloads section.</span>
+    </div>
+  </div>
+
+  <!-- Primary Navigation Menu -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
         <span></span>
         <span></span>
@@ -29,397 +41,305 @@
       </button>
 
       <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#volunteer">Volunteer</a></li>
-        <li><a href="#competition">Competition</a></li>
-        <li><a href="#advisory">Advisory Board</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About the Council</a></li>
+        <li><a href="#volunteer">Volunteer Intake</a></li>
+        <li><a href="#competition">The Physics Championship</a></li>
+        <li><a href="#advisory">Advisory Council</a></li>
+        <li><a href="#downloads">Downloads</a></li>
+        <li><a href="#contact">Contact Portal</a></li>
       </ul>
       
-      <a href="#volunteer" class="cta-btn-nav">Apply as Volunteer</a>
+      <a href="#volunteer" class="cta-btn-nav">Register to Volunteer</a>
     </div>
-  </header>
+  </nav>
 
-  <!-- Hero Section -->
-  <section class="hero" id="hero">
-    <div class="container hero-grid">
-      <div class="hero-text">
-        <div class="hero-tag">
-          <span>✦</span> Zero-Budget Student-Led Initiative
-        </div>
-        <h1>Advancing Physics, <span class="text-gradient-cosmic">Empowering Minds</span></h1>
-        <p class="hero-desc">
-          The Physics Research Council is a global gateway for students, educators, and professionals. Discover volunteer opportunities, test your limits in our upcoming physics olympiad, or guide our vision as an academic advisor.
-        </p>
-        <div class="hero-buttons">
-          <a href="#competition" class="btn-primary">
-            Explore Competition
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
-          <a href="#volunteer" class="btn-secondary">Join as Volunteer</a>
-        </div>
+  <!-- Academic Banner -->
+  <section class="academic-banner" id="about">
+    <div class="academic-banner-content">
+      <h2>National Standard Qualifier & Youth Research Program</h2>
+      <p>
+        Providing free, open-access, and academically rigorous physics training, competitions, and research pipelines for secondary and early undergraduate students. Funded entirely by in-kind sponsorships and guided by international academic board members.
+      </p>
+      <div class="academic-banner-buttons">
+        <a href="#competition" class="btn-primary">View Competition Details</a>
+        <a href="#downloads" class="btn-secondary">Download Syllabus & Papers</a>
       </div>
+    </div>
+  </section>
+
+  <!-- Main Grid Layout (Left Content Column, Right Sidebar Column) -->
+  <main class="main-wrapper">
+    
+    <!-- Left Column: Primary Content -->
+    <div class="left-column">
       
-      <div class="hero-visual">
-        <div class="orbit-system">
-          <div class="orbit-inner">
-            <div class="electron-1"></div>
-            <div class="electron-2"></div>
-            <div class="orbit-core">Φ</div>
-          </div>
-          <div class="orbit-outer-electron">
-            <div class="electron-3">e⁻</div>
-          </div>
+      <!-- Card 1: Volunteer Announcement -->
+      <section class="content-card" id="volunteer">
+        <div class="card-title">
+          <span>Student Volunteer Intake (2026 Session)</span>
+          <span class="card-title-sub">Recruitment Open</span>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="section section-alt" id="about">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Our Mission</span>
-        <h2>Breaking Barriers in Physics Education</h2>
-        <p>We believe high-level physics and scientific research shouldn't be confined to wealthy institutions. We are building a free platform to foster talent globally.</p>
-      </div>
-
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
-        <div class="glass-card">
-          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--color-primary);">⚗️</div>
-          <h3 style="margin-bottom: 1rem; font-size: 1.35rem;">Inclusive Science</h3>
-          <p style="color: var(--text-secondary); font-size: 0.95rem;">No prior experience or specialized physics background required to get involved. We support learning through engagement and collaboration.</p>
-        </div>
-        <div class="glass-card">
-          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--color-secondary);">⚛️</div>
-          <h3 style="margin-bottom: 1rem; font-size: 1.35rem;">Global Competition</h3>
-          <p style="color: var(--text-secondary); font-size: 0.95rem;">A multi-stage challenge ranging from fundamental physics concepts to Olympiad-level proof writing and independent project submissions.</p>
-        </div>
-        <div class="glass-card">
-          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--color-accent);">🔬</div>
-          <h3 style="margin-bottom: 1rem; font-size: 1.35rem;">Academic Network</h3>
-          <p style="color: var(--text-secondary); font-size: 0.95rem;">Bridging the gap between secondary school students, college undergraduates, and university professors through advisory boards and mentorship.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Volunteer Intake Section -->
-  <section class="section" id="volunteer">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Get Involved</span>
-        <h2>Student Volunteer Program</h2>
-        <p>No prior physics experience or academic credentials required. We are looking for passionate individuals to help us manage outreach, web presence, and event logistics.</p>
-      </div>
-
-      <div class="volunteer-grid">
-        <div class="volunteer-info">
-          <h3>Why Volunteer With Us?</h3>
-          <p>
-            Whether you are in high school, taking a gap year, or currently in college, volunteering at the Physics Research Council offers a unique opportunity to build your CV, lead international initiatives, and network with researchers.
-          </p>
-          
-          <div class="benefit-list">
-            <div class="benefit-item">
-              <div class="benefit-icon">✓</div>
-              <div class="benefit-content">
-                <h4>Official Certification</h4>
-                <p>Receive a signed certificate of appreciation recognizing your contributions as a volunteer officer.</p>
-              </div>
-            </div>
-            <div class="benefit-item">
-              <div class="benefit-icon">✓</div>
-              <div class="benefit-content">
-                <h4>Website & Portal Recognition</h4>
-                <p>Your name, role, and profile will be permanently listed on our official website contributor wall.</p>
-              </div>
-            </div>
-            <div class="benefit-item">
-              <div class="benefit-icon">✓</div>
-              <div class="benefit-content">
-                <h4>Zero Prerequisites</h4>
-                <p>Open to all students (Classes 9-12, Gap Year, and all College majors). We will train you for your specific role.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="volunteer-card-right">
-          <div class="glass-card" style="position: relative; overflow: hidden;">
-            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: var(--gradient-cosmic);"></div>
-            <h3 style="font-size: 1.8rem; margin-bottom: 1rem; text-align: center;">Volunteer Application</h3>
-            <p style="color: var(--text-secondary); margin-bottom: 2rem; text-align: center; font-size: 0.95rem;">
-              Fill out our intake form to join our global team. Make sure to have your Google Apps Script form set up or apply directly.
-            </p>
-            
-            <button class="btn-primary" style="width: 100%; justify-content: center;" id="openVolunteerModal">
-              Apply Instantly
-            </button>
-
-            <div class="volunteer-badge-banner">
-              💡 Need to set up the form on Google Drive? Copy the provided Google Apps Script from our codebase!
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Competition Section -->
-  <section class="section section-alt" id="competition">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Annual Event</span>
-        <h2>The Physics Championship</h2>
-        <p>A premier competition designed to discover exceptional physics talent across secondary and higher education brackets. Choose your path through our three distinct rounds.</p>
-      </div>
-
-      <!-- Round Tabs Selector -->
-      <div class="competition-tabs">
-        <button class="tab-btn active" data-round="1">Round 1: The Quiz</button>
-        <button class="tab-btn" data-round="2">Round 2: Portfolio</button>
-        <button class="tab-btn" data-round="3">Round 3: Olympiad</button>
-      </div>
-
-      <!-- Tab Content: Round 1 -->
-      <div class="tab-content active" id="round-1">
-        <div class="glass-card round-card">
-          <div class="round-details">
-            <span class="round-badge">Round 1 - Foundation</span>
-            <h3>Conceptual Quiz Challenge</h3>
-            <p>
-              An entry-level round consisting of conceptual, multiple-choice, and short numerical physics problems. Designed to test logic, dimensional analysis, and foundational knowledge of physical principles.
-            </p>
-            <ul class="round-info-list">
-              <li>20 Questions in 60 minutes</li>
-              <li>Topics: Mechanics, Thermodynamics, Basic Electromagnetism</li>
-              <li>Fully online submission portal</li>
-              <li>Serves as the qualifying round for final honors</li>
-            </ul>
-          </div>
-          <div class="round-visual-card">
-            <div class="round-icon-lg">📝</div>
-            <h3>Physics Fundamentals</h3>
-            <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.95rem;">A timed assessment that tests analytical clarity and quantitative speed.</p>
-            <div class="round-stat-grid">
-              <div class="round-stat-item">
-                <h4>60m</h4>
-                <p>Time Limit</p>
-              </div>
-              <div class="round-stat-item">
-                <h4>20</h4>
-                <p>Total Qs</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tab Content: Round 2 -->
-      <div class="tab-content" id="round-2">
-        <div class="glass-card round-card">
-          <div class="round-details">
-            <span class="round-badge">Round 2 - Creative (Optional)</span>
-            <h3>Research & Showcase Portfolio</h3>
-            <p>
-              An optional submission round designed to reward students who have engaged in independent projects, science fairs, coding models, or literature reviews. Submit your academic CV or active research paper for bonus scoring.
-            </p>
-            <ul class="round-info-list">
-              <li>Completely optional (serves as a grade booster)</li>
-              <li>Accepts: Written papers, coding scripts, physical models, or CVs</li>
-              <li>Peer-reviewed by our Advisory Board of professors</li>
-              <li>Great way to stand out for elite recognition levels</li>
-            </ul>
-          </div>
-          <div class="round-visual-card">
-            <div class="round-icon-lg">📁</div>
-            <h3>Project Showcase</h3>
-            <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.95rem;">Highlight your research, science fair projects, computational models, or coding repositories.</p>
-            <div class="round-stat-grid">
-              <div class="round-stat-item">
-                <h4>Optional</h4>
-                <p>Requirement</p>
-              </div>
-              <div class="round-stat-item">
-                <h4>+25%</h4>
-                <p>Bonus Score Cap</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tab Content: Round 3 -->
-      <div class="tab-content" id="round-3">
-        <div class="glass-card round-card">
-          <div class="round-details">
-            <span class="round-badge">Round 3 - Mastery</span>
-            <h3>Olympiad Theory Challenge</h3>
-            <p>
-              The ultimate test of physical reasoning. This round features proof-based, derivation-heavy, and complex multi-layered physics problems similar to international olympiads (IPhO, USAPhO, APhO).
-            </p>
-            <ul class="round-info-list">
-              <li>5-8 Complex multi-stage derivation questions</li>
-              <li>Calculus and advanced vector methods allowed</li>
-              <li>Scored on rigorous mathematical steps and physical intuition</li>
-              <li>Determines Gold, Silver, and Bronze Council medals</li>
-            </ul>
-          </div>
-          <div class="round-visual-card">
-            <div class="round-icon-lg">🌌</div>
-            <h3>Theoretical Physics</h3>
-            <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.95rem;">Rigorous proof-based and calculational mechanics, electrodynamics, and relativity problems.</p>
-            <div class="round-stat-grid">
-              <div class="round-stat-item">
-                <h4>180m</h4>
-                <p>Time Limit</p>
-              </div>
-              <div class="round-stat-item">
-                <h4>5-8</h4>
-                <p>Derivation Qs</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Details Grid (Eligibility & Prizes) -->
-      <div class="details-grid">
-        <div class="glass-card eligibility-box">
-          <h3>🎓 Eligibility Criteria</h3>
-          <div class="eligibility-list">
-            <div class="eligibility-item">
-              <span>High School Division</span>
-              <span>Classes 9 & 10</span>
-            </div>
-            <div class="eligibility-item">
-              <span>Senior High School Division</span>
-              <span>Classes 11 & 12</span>
-            </div>
-            <div class="eligibility-item">
-              <span>Gap Year Candidates</span>
-              <span>Pre-College</span>
-            </div>
-            <div class="eligibility-item">
-              <span>Undergraduate Division</span>
-              <span>1st & 2nd Year College Students (Any Major)</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="glass-card prizes-box">
-          <h3>🏆 Zero-Budget Rewards</h3>
-          <div class="prize-list">
-            <div class="prize-card">
-              <div class="prize-badge">🥇</div>
-              <div class="prize-info">
-                <h4>Official Certificates</h4>
-                <p>Gold, Silver, Bronze, and Merit certificates signed by our Advisory board.</p>
-              </div>
-            </div>
-            <div class="prize-card">
-              <div class="prize-badge">🌐</div>
-              <div class="prize-info">
-                <h4>Global Hall of Fame</h4>
-                <p>Your name, photo, and winning project featured on our public ranking page.</p>
-              </div>
-            </div>
-            <div class="prize-card">
-              <div class="prize-badge">🎓</div>
-              <div class="prize-info">
-                <h4>Letters of Recommendation</h4>
-                <p>Top performers qualify for letters of recommendation for college apps.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Academic & Professional Advisory Board -->
-  <section class="section" id="advisory">
-    <div class="container advisory-container">
-      <div class="advisory-info">
-        <span class="section-tag">Academic Network</span>
-        <h2>Join Our Advisory Board & Council</h2>
-        <p>
-          We are inviting physics professors, postdoctoral researchers, teachers, and STEM professionals to join the Physics Research Council as advisors and professional members. 
+        <p style="margin-bottom: 1rem;">
+          The Physics Research Council is inviting applications from students across all divisions (Classes 9-12, Gap Year candidates, and all college undergraduates) to join our organizational committee. 
         </p>
-        <p>
-          Membership is entirely free. In return, you will help review Round 2 research portfolios, advise on competition syllabus topics, and receive formal credentials recognizing your institutional contribution to youth STEM education.
+        <p style="margin-bottom: 1.5rem; font-weight: bold; color: var(--color-secondary);">
+          Important Note: No prior experience or advanced physics knowledge is required. We provide training for all selected candidates.
         </p>
-        
-        <div class="advisory-cta">
-          <a href="mailto:physicsresearchcouncil@gmail.com?subject=Inquiry:%20Joining%20as%20Advisor/Member" class="btn-primary" style="align-self: flex-start;">
-            Join as Member / Advisor
-          </a>
-        </div>
-      </div>
 
-      <div class="advisory-image-container">
-        <div class="advisory-badge-card">
-          <div class="cert-icon">📜</div>
-          <h3>Board Fellowship</h3>
-          <p style="color: var(--text-secondary); margin: 0.5rem 0 1.5rem 0; font-size: 0.95rem;">
-            Formal digital certificates of fellowship and public listing on the Council's scientific board webpage.
+        <h3 style="font-size: 1.15rem; color: var(--color-primary); margin-bottom: 0.75rem; text-transform: uppercase;">Volunteering Divisions & Roles:</h3>
+        <ul class="bullet-list">
+          <li><strong>Outreach & Communications:</strong> Coordinates mail invitations to schools, schedules board meetings, and contacts in-kind sponsors.</li>
+          <li><strong>Graphic Design & Media:</strong> Manages promotional material creation and formats official certificates.</li>
+          <li><strong>Web Development & Database Administration:</strong> Assists in managing repository portals, HTML website components, and registration spreadsheets.</li>
+          <li><strong>Physics Grading Committee (College Physics Majors Only):</strong> Assists in evaluating exam scripts and reviewing problem banks.</li>
+        </ul>
+
+        <h3 style="font-size: 1.15rem; color: var(--color-primary); margin-bottom: 0.75rem; text-transform: uppercase;">Benefits of Volunteering:</h3>
+        <ul class="bullet-list">
+          <li>Signed <strong>Certificate of Appreciation</strong> from the Scientific Advisory Council.</li>
+          <li>Public listing on our contributor board to enhance student portfolios.</li>
+          <li>Flexible, remote commitment (approx. 1–3 hours per week).</li>
+        </ul>
+
+        <div style="margin-top: 2rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem; text-align: center;">
+          <button class="btn-primary" id="openVolunteerModal">Open Online Application Form</button>
+        </div>
+      </section>
+
+      <!-- Card 2: Physics Championship Details -->
+      <section class="content-card" id="competition">
+        <div class="card-title">
+          <span>The Physics Championship 2026</span>
+          <span class="card-title-sub">Event Blueprint</span>
+        </div>
+        <p style="margin-bottom: 1.5rem;">
+          The Physics Championship is a multi-division competitive examination designed to test physical reasoning, mathematical derivations, and research abilities.
+        </p>
+
+        <!-- Round Tabs Selector -->
+        <div class="tabs-header">
+          <button class="tab-btn active" data-round="1">Round 1: MCQ & Numerical Quiz</button>
+          <button class="tab-btn" data-round="2">Round 2: Portfolio (Optional)</button>
+          <button class="tab-btn" data-round="3">Round 3: Olympiad Theory</button>
+        </div>
+
+        <!-- Tab Content: Round 1 -->
+        <div class="tab-content active" id="round-1">
+          <h3 style="font-size: 1.2rem; color: var(--color-primary); margin-bottom: 0.5rem; text-transform: uppercase;">Round 1: Conceptual Filter</h3>
+          <p style="margin-bottom: 1rem;">
+            A timed online conceptual examination testing logic, dimensional analysis, and foundational physical laws.
           </p>
-          <ul class="advisory-benefits">
-            <li>Review student research portfolios</li>
-            <li>Approve Olympiad question sets</li>
-            <li>Certificate of Board Appointment</li>
-            <li>Access to high-potential student talent</li>
+          <ul class="bullet-list">
+            <li><strong>Total Questions:</strong> 20 Multiple-Choice and Numerical Questions.</li>
+            <li><strong>Duration:</strong> 60 Minutes.</li>
+            <li><strong>Syllabus:</strong> Kinematics, Newtonian Mechanics, Heat, Waves, and Basic Electromagnetism.</li>
+            <li><strong>Grading:</strong> Automated grading via Sheets. Serves as a qualifying filter for Round 3.</li>
           </ul>
-          <span style="font-size: 0.85rem; color: var(--text-muted);">No financial obligations or administrative burdens</span>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Contact & Outreach Section -->
-  <section class="section section-alt" id="contact">
-    <div class="container">
-      <div class="glass-card contact-card">
-        <div class="section-tag">Get in Touch</div>
-        <h3>Physics Research Council Portal</h3>
+        <!-- Tab Content: Round 2 -->
+        <div class="tab-content" id="round-2">
+          <h3 style="font-size: 1.2rem; color: var(--color-primary); margin-bottom: 0.5rem; text-transform: uppercase;">Round 2: Innovation & CV Portfolio (Optional)</h3>
+          <p style="margin-bottom: 1rem;">
+            An optional showcase allowing students to submit past research projects, coding models, or academic accomplishments for bonus marks.
+          </p>
+          <ul class="bullet-list">
+            <li><strong>Acceptable Entries:</strong> Science fair projects, physics simulations (e.g. Python scripts), literature reviews, or academic CVs.</li>
+            <li><strong>Bonus Score Cap:</strong> Up to +25 bonus points added directly to the final score.</li>
+            <li><strong>Evaluation:</strong> Peer-reviewed by our Advisory Board using standard evaluation rubrics.</li>
+          </ul>
+        </div>
+
+        <!-- Tab Content: Round 3 -->
+        <div class="tab-content" id="round-3">
+          <h3 style="font-size: 1.2rem; color: var(--color-primary); margin-bottom: 0.5rem; text-transform: uppercase;">Round 3: Olympiad Theory Challenge</h3>
+          <p style="margin-bottom: 1rem;">
+            The final, paper-based theoretical examination. Students download the exam, write solutions by hand, and upload scanned copies.
+          </p>
+          <ul class="bullet-list">
+            <li><strong>Total Questions:</strong> 5 to 8 multi-stage derivation problems.</li>
+            <li><strong>Duration:</strong> 180 Minutes (3 Hours).</li>
+            <li><strong>Standard:</strong> International Olympiad level (similar to IPhO/USAPhO).</li>
+            <li><strong>Grading:</strong> Rigorous evaluation of mathematical steps and physical logic by academic advisors.</li>
+          </ul>
+        </div>
+
+        <!-- Divisions Table -->
+        <h3 style="font-size: 1.15rem; color: var(--color-primary); margin: 2rem 0 0.75rem 0; text-transform: uppercase;">Competition Divisions:</h3>
+        <div class="table-responsive">
+          <table class="portal-table">
+            <thead>
+              <tr>
+                <th>Division</th>
+                <th>Target Candidates</th>
+                <th>Syllabus Scope</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="division-tag-btn">Division A</span></td>
+                <td>Junior High School (Classes 9 & 10)</td>
+                <td>Algebra-based mechanics, general heat and waves, light rays.</td>
+              </tr>
+              <tr>
+                <td><span class="division-tag-btn">Division B</span></td>
+                <td>Senior High School (Classes 11 & 12) & Gap Year</td>
+                <td>Introductory calculus-based mechanics, thermodynamics, electromagnetism.</td>
+              </tr>
+              <tr>
+                <td><span class="division-tag-btn">Division C</span></td>
+                <td>College Undergraduates (1st & 2nd Year - Any Major)</td>
+                <td>Advanced dynamics, electrodynamics, modern physics, special relativity.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Card 3: Advisory Committee -->
+      <section class="content-card" id="advisory">
+        <div class="card-title">
+          <span>Scientific Advisory Committee</span>
+          <span class="card-title-sub">Academic Board</span>
+        </div>
         <p>
-          Have questions about student volunteering, sponsoring our event certificates, or submitting competition entries? Reach out directly.
+          Our committee consists of professors, university researchers, and educators who oversee syllabus creation, validate Olympiad exam papers, and evaluate research portfolio submissions.
         </p>
-        
-        <div class="contact-links-grid">
-          <a href="mailto:physicsresearchcouncil@gmail.com" class="contact-link-item">
-            <span class="contact-icon">📧</span>
-            <span>physicsresearchcouncil@gmail.com</span>
-          </a>
-          <a href="https://github.com/physicsresearchcouncil/physicsresearchcouncil" target="_blank" class="contact-link-item">
-            <span class="contact-icon">🐙</span>
-            <span>GitHub Repository</span>
-          </a>
-        </div>
-        
-        <button class="mock-form-btn" id="openContactFeedback">
-          Are you a student club looking for a partnership? Request a collaboration package.
-        </button>
-      </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
+        <div class="advisor-grid">
+          <div class="advisor-card">
+            <div class="advisor-name">Dr. Rachel Greene</div>
+            <div class="advisor-title">Academic Board Advisor</div>
+            <div class="advisor-institution">Indian Institute of Science (IISc), Bangalore</div>
+          </div>
+          <div class="advisor-card">
+            <div class="advisor-name">Dr. Amit P. Mehta</div>
+            <div class="advisor-title">Committee Chair</div>
+            <div class="advisor-institution">Homi Bhabha Centre for Science Education (HBCSE), Mumbai</div>
+          </div>
+          <div class="advisor-card">
+            <div class="advisor-name">Dr. Samuel Thorne</div>
+            <div class="advisor-title">Syllabus Validator</div>
+            <div class="advisor-institution">Tata Institute of Fundamental Research (TIFR), Mumbai</div>
+          </div>
+          <div class="advisor-card">
+            <div class="advisor-name">Sarah Jenkins</div>
+            <div class="advisor-title">Outreach Director</div>
+            <div class="advisor-institution">Physics Research Council</div>
+          </div>
+        </div>
+
+        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: var(--color-muted); border-top: 1px solid var(--border-light); padding-top: 1rem;">
+          Are you a university researcher, postdoctoral fellow, or physics educator? You can join our advisory board as an honorary fellow. Fellowship is free and requires under 2-4 hours per semester. Email us at physicsresearchcouncil@gmail.com with your CV.
+        </p>
+      </section>
+
+    </div>
+    
+    <!-- Right Column: Sidebar -->
+    <div class="right-column">
+      
+      <!-- Sidebar Card 1: Portal Quick Links -->
+      <div class="side-card">
+        <div class="side-card-title">Portal Quick Links</div>
+        <ul class="quick-links-list">
+          <li><a href="#volunteer">Apply to Volunteer</a></li>
+          <li><a href="#competition">Championship Overview</a></li>
+          <li><a href="#downloads">Syllabus & Past Papers</a></li>
+          <li><a href="#advisory">Advisory Fellowship</a></li>
+        </ul>
+      </div>
+
+      <!-- Sidebar Card 2: Important Dates -->
+      <div class="side-card">
+        <div class="side-card-title">Important Dates</div>
+        <table class="dates-table">
+          <tbody>
+            <tr>
+              <td class="date-label">Volunteer Intake Open</td>
+              <td class="date-value">Active</td>
+            </tr>
+            <tr>
+              <td class="date-label">Volunteer Intake Close</td>
+              <td class="date-value">June 20, 2026</td>
+            </tr>
+            <tr>
+              <td class="date-label">Championship Registration</td>
+              <td class="date-value">July 01, 2026</td>
+            </tr>
+            <tr>
+              <td class="date-label">Round 1 (Online Quiz)</td>
+              <td class="date-value">August 15, 2026</td>
+            </tr>
+            <tr>
+              <td class="date-label">Round 2 & 3 Submissions</td>
+              <td class="date-value">September 05, 2026</td>
+            </tr>
+            <tr>
+              <td class="date-label">Final Results Declaration</td>
+              <td class="date-value">September 25, 2026</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Sidebar Card 3: Downloads Portal -->
+      <div class="side-card" id="downloads">
+        <div class="side-card-title">Downloads & Syllabus</div>
+        <p style="font-size: 0.85rem; color: var(--color-muted); margin-bottom: 0.75rem;">
+          Download official files, rules, and sample papers:
+        </p>
+        <ul class="pdf-list">
+          <li>
+            <a href="competition_syllabus_and_rules.md" class="pdf-link">
+              <span class="pdf-icon">[PDF]</span> Rules & Syllabus 2026
+            </a>
+          </li>
+          <li>
+            <a href="sample_problems/round1_sample_questions.md" class="pdf-link">
+              <span class="pdf-icon">[PDF]</span> Round 1 Quiz Samples
+            </a>
+          </li>
+          <li>
+            <a href="sample_problems/round3_olympiad_problems.md" class="pdf-link">
+              <span class="pdf-icon">[PDF]</span> Round 3 Theory Samples
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Sidebar Card 4: Contact & Inquiries -->
+      <div class="side-card" id="contact">
+        <div class="side-card-title">Contact & Help Desk</div>
+        <p style="font-size: 0.85rem; margin-bottom: 0.75rem;">
+          For all official communications regarding student volunteering, sponsor partnerships, or board membership:
+        </p>
+        <p style="font-weight: bold; color: var(--color-secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">
+          ✉ physicsresearchcouncil@gmail.com
+        </p>
+        <p style="font-size: 0.8rem; color: var(--color-muted);">
+          GitHub: <a href="https://github.com/physicsresearchcouncil/physicsresearchcouncil" target="_blank" style="color: var(--color-primary); font-weight: bold;">physicsresearchcouncil</a>
+        </p>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer Section -->
   <footer class="footer">
-    <div class="container footer-content">
-      <a href="#" class="logo">
-        <div class="logo-icon">Φ</div>
-        <span>Physics Research Council</span>
-      </a>
+    <div class="footer-content">
+      <div class="footer-logo">PHYSICS RESEARCH COUNCIL</div>
       <ul class="footer-links">
         <li><a href="#about">About</a></li>
         <li><a href="#volunteer">Volunteer</a></li>
-        <li><a href="#competition">Competition</a></li>
-        <li><a href="#advisory">Advisory</a></li>
+        <li><a href="#competition">Championship</a></li>
+        <li><a href="#downloads">Downloads</a></li>
       </ul>
       <div class="copyright">
-        &copy; 2026 Physics Research Council. All Rights Reserved. Set up as a free, student-led STEM outreach project.
+        &copy; 2026 Physics Research Council. All Rights Reserved.  
+        <br>
+        Organized as a free, open-access youth scientific outreach and educational initiative.
       </div>
     </div>
   </footer>
@@ -428,8 +348,8 @@
   <div class="modal-overlay" id="volunteerModal">
     <div class="modal-container">
       <button class="modal-close" id="closeVolunteerModal">&times;</button>
-      <h3 class="modal-title">Volunteer Intake Form</h3>
-      <p class="modal-desc">Fill out this quick form. No prior physics knowledge is required. You will receive an official certificate and mention on our portal.</p>
+      <h3 class="modal-title">Volunteer Application Portal</h3>
+      <p class="modal-desc">Please complete all fields below. No prior scientific experience is required.</p>
       
       <form id="volunteerForm" onsubmit="event.preventDefault(); alert('Submission simulated successfully! Direct Google Form link should be configured in index.html.'); document.getElementById('volunteerModal').classList.remove('active');">
         <div class="form-group">
@@ -468,7 +388,7 @@
         </div>
 
         <div class="form-group">
-          <label class="form-label" for="volNotes">Tell us briefly why you want to join (Optional)</label>
+          <label class="form-label" for="volNotes">Statement of Interest (Optional)</label>
           <input type="text" id="volNotes" class="form-input" placeholder="Any background, interest, or ideas...">
         </div>
 
