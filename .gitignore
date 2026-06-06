@@ -9,3 +9,8 @@ desktop.ini
 
 # Local logs
 *.log
+
+# Dependencies
+node_modules/
+package.json
+package-lock.json
