@@ -97,4 +97,69 @@ If the distance between the Earth and the Sun were suddenly halved, how many day
 *   **Correct Answer:** (B)
 *   **Explanation:** By Kepler's Third Law, T^2 is proportional to R^3. Thus, (T2/T1)^2 = (R2/R1)^3 = (1/2)^3 = 1/8. T2 = T1 / (2 * sqrt(2)) = 365 / 2.828 ≈ 129 days.
 
-*(Continued in round1_handbook_part2.md for questions 11–50)*
+#### Question 11
+An object is thrown vertically upwards with velocity v. When it reaches half of its maximum height, what is its velocity?
+*   (A) v / 2
+*   (B) v / sqrt(2)
+*   (C) v * sqrt(3) / 2
+*   (D) v / 4
+*   **Correct Answer:** (B)
+*   **Explanation:** From v_f^2 = v^2 - 2*g*h, the maximum height is H = v^2 / (2g). At h = H/2, v_f^2 = v^2 - 2*g*(v^2/(4g)) = v^2 - v^2/2 = v^2 / 2. Thus, v_f = v / sqrt(2).
+
+#### Question 12
+A bucket full of water is rotated in a vertical circle of radius R. What is the minimum velocity at the top of the path so that no water spills out?
+*   (A) sqrt(g * R)
+*   (B) g * R
+*   (C) sqrt(2 * g * R)
+*   (D) zero
+*   **Correct Answer:** (A)
+*   **Explanation:** To prevent water from falling, the centripetal acceleration at the top must be at least equal to gravity: m * v^2 / R = m * g, which yields v = sqrt(g * R).
+
+#### Question 13
+Which of the following is a non-conservative force?
+*   (A) Gravitational force
+*   (B) Electrostatic force
+*   (C) Elastic spring force
+*   (D) Viscous drag force
+*   **Correct Answer:** (D)
+*   **Explanation:** Viscous drag force dissipates mechanical energy as heat, meaning the work done by it depends on the path taken.
+
+#### Question 14
+A disc of mass M and radius R rotates with angular velocity omega. A second identical disc is placed gently on top of the first. What is the final angular velocity of the combined system?
+*   (A) omega / 4
+*   (B) omega / 2
+*   (C) omega
+*   (D) 2 * omega
+*   **Correct Answer:** (B)
+*   **Explanation:** By conservation of angular momentum, I1 * omega = I2 * omega_f. Since the moment of inertia doubles (I2 = 2 * I1), the final angular velocity is halved.
+
+#### Question 15
+What is the acceleration due to gravity at a depth equal to R/2 inside the Earth, where R is the radius of the Earth?
+*   (A) g / 4
+*   (B) g / 2
+*   (C) 2g
+*   (D) Zero
+*   **Correct Answer:** (B)
+*   **Explanation:** Inside the Earth, gravity varies linearly with distance from the center: g(d) = g * (1 - d/R). For d = R/2, g(R/2) = g * (1 - 0.5) = g/2.
+
+#### Question 16
+A simple pendulum has a period T on Earth. What is its period on the moon, where gravity is one-sixth of the Earth's gravity?
+*   (A) T / sqrt(6)
+*   (B) T * sqrt(6)
+*   (C) 6T
+*   (D) T / 6
+*   **Correct Answer:** (B)
+*   **Explanation:** The period is T = 2 * pi * sqrt(L / g). Since gravity is divided by 6, the period increases by a factor of the square root of 6.
+
+#### Question 17
+A uniform block of mass m is pushed against a vertical wall with a horizontal force F. If the coefficient of static friction is mu, what is the minimum force F needed to prevent the block from sliding down?
+*   (A) m * g
+*   (B) m * g / mu
+*   (C) mu * m * g
+*   (D) m * g * mu
+*   **Correct Answer:** (B)
+*   **Explanation:** The normal force is N = F. The maximum static friction force is f = mu * N = mu * F. To prevent sliding, f must equal the weight: mu * F = m * g, giving F = m * g / mu.
+
+---
+
+**Continued:** [Questions 18–50](round1_handbook_part2.md)
