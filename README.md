@@ -39,16 +39,16 @@ A three-round competition testing conceptual understanding, portfolio work, and 
 - **Division C:** College undergraduates (1st and 2nd year, any major)
 
 **Syllabus topics (scaled by division)**  
-Mechanics, Electromagnetism, Thermodynamics, Waves and Optics, Modern Physics.  
-Full topic breakdown by division is in the syllabus document.
+Mechanics, Electromagnetism, Thermodynamics, Waves and Optics, Modern Physics.
 
 **Awards**  
 Gold / Silver / Bronze certificates (top 5% / next 10% / next 15% per division), Honorable Mention (top 50%), Hall of Fame listing, and letters of recommendation for the top 3 in each division.
 
-**Documents**
+**Championship documents**
 
 - [Syllabus, Rules and Guidelines](competition_syllabus_and_rules.md)
-- Sample Round 1 and Round 3 problems (being restored in `sample_problems/`)
+- [Round 1 sample questions](sample_problems/round1_sample_questions.md)
+- [Round 3 olympiad sample problems](sample_problems/round3_olympiad_problems.md)
 
 ---
 
