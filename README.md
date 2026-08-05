@@ -6,7 +6,7 @@
 
 Free · Open-access · Student-led · Merit-based
 
-[Website](https://physicsresearchcouncil.github.io/physicsresearchcouncil/) · [Volunteer Form](https://forms.gle/LELL9oS6o5jXi4vG7) · [Email](mailto:physicsresearchcouncil@gmail.com)
+[Volunteer Form](https://forms.gle/LELL9oS6o5jXi4vG7) · [Email](mailto:physicsresearchcouncil@gmail.com)
 
 [Instagram](https://www.instagram.com/physicsresearchcouncil/) · [X](https://x.com/PhyResearch) · [YouTube](https://www.youtube.com/@PhysicsResearchCouncil) · [Medium](https://medium.com/@physicsresearchcouncil)
 
@@ -24,19 +24,31 @@ An international Scientific Advisory Committee of professors and researchers rev
 
 ## The Physics Championship 2026
 
-A three-round competition testing conceptual understanding, portfolio work, and olympiad-level theory.
+A three-round competition testing conceptual understanding, portfolio work, and olympiad-level theory. Completely free to enter.
 
 | Round | Format | Focus |
 |-------|--------|-------|
-| Round 1 | Online MCQ and numerical (60 min) | Conceptual filter: logic, dimensional analysis, core laws |
-| Round 2 (optional) | Portfolio or CV submission | Research projects, simulations, literature reviews. Up to +25 bonus |
-| Round 3 | Theory paper (3 hours) | Multi-stage derivation problems at international olympiad standard |
+| Round 1 | Online MCQ and numerical (60 min, 20 questions) | Conceptual filter: logic, dimensional analysis, core laws. 100 points. No negative marking. |
+| Round 2 (optional) | Portfolio or CV submission | Research projects, simulations, literature reviews, or academic CV. Up to +25 bonus points. |
+| Round 3 | Theory paper (3 hours, 5–8 problems) | Multi-stage derivation problems at international olympiad standard. 100 points. Graded by the Advisory Board. |
 
 **Divisions**
 
-- Division A: Classes 9 and 10  
-- Division B: Classes 11–12 and gap year  
-- Division C: College undergraduates (1st and 2nd year, any major)
+- **Division A:** Classes 9 and 10  
+- **Division B:** Classes 11–12 and gap year  
+- **Division C:** College undergraduates (1st and 2nd year, any major)
+
+**Syllabus topics (scaled by division)**  
+Mechanics, Electromagnetism, Thermodynamics, Waves and Optics, Modern Physics.  
+Full topic breakdown by division is in the syllabus document.
+
+**Awards**  
+Gold / Silver / Bronze certificates (top 5% / next 10% / next 15% per division), Honorable Mention (top 50%), Hall of Fame listing, and letters of recommendation for the top 3 in each division.
+
+**Documents**
+
+- [Syllabus, Rules and Guidelines](competition_syllabus_and_rules.md)
+- Sample Round 1 and Round 3 problems (being restored in `sample_problems/`)
 
 ---
 
@@ -88,7 +100,6 @@ To join, email physicsresearchcouncil@gmail.com with a CV.
 
 | Platform | URL |
 |----------|-----|
-| Website | [physicsresearchcouncil.github.io](https://physicsresearchcouncil.github.io/physicsresearchcouncil/) |
 | Instagram | [instagram.com/physicsresearchcouncil](https://www.instagram.com/physicsresearchcouncil/) |
 | X / Twitter | [x.com/PhyResearch](https://x.com/PhyResearch) |
 | YouTube | [youtube.com/@PhysicsResearchCouncil](https://www.youtube.com/@PhysicsResearchCouncil) |
@@ -104,14 +115,13 @@ To join, email physicsresearchcouncil@gmail.com with a CV.
 
 **Related:** physics volunteer opportunities, high school physics contest, undergraduate physics outreach, free IPhO-style problems, physics grading volunteer, STEM student leadership India
 
-**Long-tail:** free online physics championship class 9 10 11 12, zero-cost physics olympiad college students, student physics research council, physics problem design volunteer India
+**Long-tail:** free online physics championship class 9 10 11 12, free physics olympiad college students, student physics research council, physics problem design volunteer India
 
 ---
 
 <div align="center">
 
-© 2026 Physics Research Council  
-Free, open-access youth scientific outreach
+© 2026 Physics Research Council
 
 [Volunteer](https://forms.gle/LELL9oS6o5jXi4vG7) · [Contact](mailto:physicsresearchcouncil@gmail.com)
 
