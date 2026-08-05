@@ -47,8 +47,10 @@ Gold / Silver / Bronze certificates (top 5% / next 10% / next 15% per division),
 **Championship documents**
 
 - [Syllabus, Rules and Guidelines](competition_syllabus_and_rules.md)
-- [Round 1 sample questions](sample_problems/round1_sample_questions.md)
-- [Round 3 olympiad sample problems](sample_problems/round3_olympiad_problems.md)
+- [Round 1 sample questions (10 Qs)](sample_problems/round1_sample_questions.md)
+- [Round 1 handbook (50 Qs)](sample_problems/round1_handbook.md) · [Part 2](sample_problems/round1_handbook_part2.md) · [Part 3](sample_problems/round1_handbook_part3.md)
+- [Round 3 sample problems](sample_problems/round3_olympiad_problems.md)
+- [Round 3 handbook (20 proofs)](sample_problems/round3_handbook.md) · [Part 2](sample_problems/round3_handbook_part2.md) · [Part 3](sample_problems/round3_handbook_part3.md)
 
 ---
 
